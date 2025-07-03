@@ -56,4 +56,10 @@ CUDA can read .cpp files – here is the precise breakdown:
 - helper.cpp has standard C++ utility functions.
 - NVCC automatically calls the host compiler (e.g. g++) for .cpp files and itself compiles .cu files.
 
+# Compilation 
+```bash
+nvcc -o hello_cuda hello_cuda.cu
+./hello_cuda
+```
+
 
