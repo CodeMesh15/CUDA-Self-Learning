@@ -35,3 +35,13 @@ nvidia-smi
 nvcc -o test_cuda test.cu
 ./test_cuda
 ```
+# Development Environment Setup
+Recommended IDEs:
+- Visual Studio Code with CUDA extensions
+- CLion with CUDA plugin
+- Nsight Visual Studio Edition (Windows)
+
+Essential Tools:
+- nvprof: CUDA profiler
+- nvidia-smi: GPU monitoring
+- cuda-gdb: CUDA debugger
