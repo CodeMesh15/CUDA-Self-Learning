@@ -63,4 +63,7 @@ nvcc -o hello_cuda hello_cuda.cu
 ```
 ![image](https://github.com/user-attachments/assets/93e35a0e-1953-4feb-b78f-10f6dfc8a72a)
 
+# Cloud Hardware
+![image](https://github.com/user-attachments/assets/93cd227c-fed7-4095-bf37-b9ad6d6d90ce)
+
 
