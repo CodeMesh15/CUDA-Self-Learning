@@ -45,3 +45,15 @@ Essential Tools:
 - nvprof: CUDA profiler
 - nvidia-smi: GPU monitoring
 - cuda-gdb: CUDA debugger
+
+# Extension 
+
+CUDA can read .cpp files – here is the precise breakdown:
+- Use .cu files for any file that contains CUDA kernels or device functions.
+- Use .cpp or .h files for pure C++ code that does not require GPU compilation.
+
+✅ Example build scenario:
+- helper.cpp has standard C++ utility functions.
+- NVCC automatically calls the host compiler (e.g. g++) for .cpp files and itself compiles .cu files.
+
+
