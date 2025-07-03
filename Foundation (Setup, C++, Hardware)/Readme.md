@@ -25,3 +25,13 @@ wsl --install -d Ubuntu-20.04
 
 # Continue with Linux setup inside WSL
 ```
+Verification:
+```bash
+# Test CUDA installation
+nvcc --version
+nvidia-smi
+
+# Compile and run test program
+nvcc -o test_cuda test.cu
+./test_cuda
+```
