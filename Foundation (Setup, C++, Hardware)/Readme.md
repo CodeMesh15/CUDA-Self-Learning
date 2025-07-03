@@ -61,5 +61,6 @@ CUDA can read .cpp files – here is the precise breakdown:
 nvcc -o hello_cuda hello_cuda.cu
 ./hello_cuda
 ```
+![image](https://github.com/user-attachments/assets/93e35a0e-1953-4feb-b78f-10f6dfc8a72a)
 
 
