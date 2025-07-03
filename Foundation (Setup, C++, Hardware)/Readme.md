@@ -12,3 +12,16 @@ Software Prerequisites:
 - CUDA Toolkit: Version 12.0 or newer
 - Compiler: GCC 9+ (Linux), Visual Studio 2019+ (Windows)
 - Python: 3.8+ with PyTorch (optional but recommended)
+
+# Installation Guide
+Since I'm using a windows machine
+```bash
+# Enable WSL and required features
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
+
+# Install Ubuntu from Microsoft Store
+wsl --install -d Ubuntu-20.04
+
+# Continue with Linux setup inside WSL
+```
