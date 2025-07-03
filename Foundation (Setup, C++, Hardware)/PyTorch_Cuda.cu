@@ -12,3 +12,14 @@ y = torch.randn(1000, 1000, device='cuda')
 # GPU matrix multiplication
 result = torch.mm(x, y)
 print(f"Result shape: {result.shape}")
+
+# Compilation and Optimization
+
+@torch.compile
+def optimized_function(x, y):
+    return torch.mm(x, y) + torch.sin(x)
+
+# 30% speedup out of the box
+x = torch.randn(1000, 1000, device='cuda')
+y = torch.randn(1000, 1000, device='cuda')
+result = optimized_function(x, y)
